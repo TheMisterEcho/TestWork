@@ -1,0 +1,4 @@
+.env
+suppliers.db
+__pycache__/
+.venv/
