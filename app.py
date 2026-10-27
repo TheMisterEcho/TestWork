@@ -22,7 +22,7 @@ from main import (
 )
 
 st.set_page_config(page_title="Поиск поставщиков", page_icon="🔎", layout="centered")
-st.title("🔎 Поиск поставщиков")
+st.title("Поиск поставщиков")
 st.write("Введите запрос на естественном языке, и LLM подберёт подходящих поставщиков.")
 
 # Проверяем базу один раз на запуск страницы.
@@ -62,7 +62,7 @@ with st.form("search_form"):
 
 if submitted:
     if not user_query.strip():
-        st.warning("Введите запрос!")
+        st.warning("Введите запрос")
         st.stop()
 
     try:
