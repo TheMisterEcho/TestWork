@@ -21,10 +21,10 @@
 
 ## Как запустить
 
-1. Установите зависимости: `pip install pydantic instructor openai rich python-dotenv`
+1. Установите зависимости: `pip install pydantic instructor openai rich python-dotenv streamlit`
 2. Создайте `.env` на основе `.env.example`.
 3. Сгенерируйте данные: `python generate_data.py`
-4. Запустите: `python main.py`
+4. Запустите: `streamlit run app.py`
 
 ## Что бы я добавил в проде (Next Steps)
 
